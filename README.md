@@ -36,7 +36,7 @@ if guess == number:
           "and it only took", tries, "tries!")
 ##### this was the start of the code that was created with the help from python tutorials. After fiddling around with the code it was moddifed to create a repeating loop as well as fix some issues with dialouge prompts. With help from proffessor Miller a new and improved version of the game was made to even futher help develope python basics.
 
-import random
+'''import random
 
 number = random.randint(1, 10)
 tries = 1
@@ -68,7 +68,7 @@ if question.upper() == "Y":
                   "and it only took", tries, "tries!")
         question =raw_input("Would you like to play again? [Y/N] ")
         if question.upper() == 'N':
-            end = True
+            end = True'''
             
  ##### This is the final product for this simple game.
           
