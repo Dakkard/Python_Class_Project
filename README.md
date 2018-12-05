@@ -1,5 +1,5 @@
 # Python_Class_Project
-#### Class Project summary
+#### Class Project Summary
 ##### The goal for this project is to create a simple game utilizing the concepts learned in the class, like using simple coding like "inputs", "integers", and other things like random number generator. The reason that I have picked something like this for a project to to better cement the basics that was learned.
 ##### Usage of this game is very straight forward. You create a username to use with it then it will ask you if you want to play, this will be answered with a simple [Y/N]. Then you get to guess till your answer is correct.
 #### Example of the code:
@@ -37,7 +37,7 @@ if guess == number:
           "and it only took", tries, "tries!")
 ```
 
-##### this was the start of the code that was created with the help from python tutorials. After fiddling around with the code it was moddifed to create a repeating loop as well as fix some issues with dialouge prompts. With help from proffessor Miller a new and improved version of the game was made to even futher help develope python basics.
+##### This was the start of the code that was created with the help from python tutorials. After fiddling around with the code it was moddifed to create a repeating loop as well as fix some issues with dialouge prompts. With help from proffessor Miller a new and improved version of the game was made to even futher help develope python basics.
 
 ```python
 import random
@@ -77,5 +77,5 @@ if question.upper() == "Y":
             
 ##### This is the final product for this simple game.
           
-#### references and links:
+#### References and Links:
 [python simple game tutorial](https://www.youtube.com/watch?v=l90vKQMDHPU)
