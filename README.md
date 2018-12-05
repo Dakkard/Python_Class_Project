@@ -1,6 +1,6 @@
 # Python_Class_Project
 #### Class Project Summary
-##### The goal for this project is to create a simple game utilizing the concepts learned in the class, like using simple coding like "inputs", "integers", and other things like random number generator. The reason that I have picked something like this for a project to to better cement the basics that was learned.
+#####   The goal for this project is to create a simple game utilizing the concepts learned in the class, like using simple coding like "inputs", "integers", and other things like random number generator. The reason that I have picked something like this for a project to to better cement the basics that was learned.
 ##### Usage of this game is very straight forward. You create a username to use with it then it will ask you if you want to play, this will be answered with a simple [Y/N]. Then you get to guess till your answer is correct.
 #### Example of the code:
 ```python
