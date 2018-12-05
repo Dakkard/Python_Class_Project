@@ -34,6 +34,43 @@ while guess != number:
 if guess == number:
     print("Congrats! you guessed the right number! you win! the number was", number, \
           "and it only took", tries, "tries!")
+##### this was the start of the code that was created with the help from python tutorials. After fiddling around with the code it was moddifed to create a repeating loop as well as fix some issues with dialouge prompts. With help from proffessor Miller a new and improved version of the game was made to even futher help develope python basics.
+
+import random
+
+number = random.randint(1, 10)
+tries = 1
+
+
+uname = raw_input("Hello, What is your username?")
+
+print("Hello", uname + ".", )
+
+end = False
+question =raw_input("Would you like to play a game? [Y/N] ")
+if question.upper() == "N":
+    print("Oh...okay maybe next time")
+if question.upper() == "Y":
+    while not end:
+        print ("I'm thinking of a number between 1 & 10")
+        number = random.randint(1, 10)
+        tries = 1
+        guess = int(raw_input("Have a guess: "))
+        while guess != number:
+            tries += 1
+            guess = int(raw_input("Try again: "))
+            if guess > number:
+                print("Guess Lower...")
+            elif guess < number:
+                print ("Guess Higher...")
+        if guess == number:
+            print("Congrats! you guessed the right number! you win! the number was", number, \
+                  "and it only took", tries, "tries!")
+        question =raw_input("Would you like to play again? [Y/N] ")
+        if question.upper() == 'N':
+            end = True
+            
+ ##### This is the final product for this simple game.
           
 #### references and links:
 [python simple game tutorial](https://www.youtube.com/watch?v=l90vKQMDHPU)
